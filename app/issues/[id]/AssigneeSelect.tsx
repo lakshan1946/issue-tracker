@@ -1,10 +1,9 @@
 "use client";
+import Skeleton from "@/app/components/Skeleton";
 import { Issue, User } from "@prisma/client";
 import { Select } from "@radix-ui/themes";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
-import React, { useEffect, useState } from "react";
-import Skeleton from "@/app/components/Skeleton";
 import toast, { Toaster } from "react-hot-toast";
 
 interface Props {
@@ -33,6 +32,7 @@ const AssigneeSelect = ({ issue }: Props) => {
         assignedToUSerId: assignedToUserId,
       });
     } catch (error) {
+      console.log(error);
       toast.error("Failed to update assignee");
     }
   };

@@ -67,7 +67,7 @@ const IssueTable = ({ searchParams, issues }: Props) => {
 const columns: {
   label: string;
   value: keyof Issue;
-  className?: any;
+  className?: string;
 }[] = [
   {
     label: "Issue",

@@ -1,9 +1,9 @@
 "use client";
 import { Spinner } from "@/app/components";
-import { AlertDialog, Button, Flex, Link } from "@radix-ui/themes";
+import { AlertDialog, Button, Flex } from "@radix-ui/themes";
 import axios from "axios";
 import { useRouter } from "next/navigation";
-import React, { useState } from "react";
+import { useState } from "react";
 interface Props {
   issueID: number;
 }
