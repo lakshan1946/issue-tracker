@@ -28,6 +28,9 @@ An issue tracker application built with **Next.js** and **MySQL** that allows us
 - **Prisma**: ORM for database access.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 
+## Functinality
+![image](https://github.com/user-attachments/assets/2264e746-cbcb-4423-9ba3-213fa1d61c56)
+
 ## Usage
 
 - Log in using your Gmail account.
